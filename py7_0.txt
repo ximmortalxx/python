@@ -1,0 +1,13 @@
+from numpy import *
+import matplotlib.pyplot as plt
+x = linspace(1, 4)
+y = 5*sin(1/x)*cos(x**2+1/x)**2
+plt.plot(x, y, 'kD')
+plt.xlabel('c')
+plt.ylabel('r')
+plt.title('Graph')
+plt.legend(['y=5*sin(1/x)*cos(x^2+1/x)^2'],
+           loc='right')
+plt.grid(True)
+plt.show()
+

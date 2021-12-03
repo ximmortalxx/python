@@ -1,0 +1,9 @@
+x1 = np.linspace(1.2, 2.2)
+y2 = np.linspace(1.4, 2.7)
+
+ax.plot(x1, y2)
+ax.grid()
+plt.title('---')
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
